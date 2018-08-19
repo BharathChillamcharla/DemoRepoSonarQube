@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-com.qa.tests.LoginTest">
+            <a href="#" panel-name="suite-com.qa.tests.LoginTest" class="navigator-link">
               <span class="suite-name border-passed">com.qa.tests.LoginTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-com.qa.tests.LoginTest">
+                  <a href="#" panel-name="test-xml-com.qa.tests.LoginTest" class="navigator-link ">
                     <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-com.qa.tests.LoginTest">
+                  <a href="#" panel-name="testlist-com.qa.tests.LoginTest" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-com.qa.tests.LoginTest">
+                  <a href="#" panel-name="group-com.qa.tests.LoginTest" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-com.qa.tests.LoginTest">
+                  <a href="#" panel-name="times-com.qa.tests.LoginTest" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-com.qa.tests.LoginTest">
+                  <a href="#" panel-name="reporter-com.qa.tests.LoginTest" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-com.qa.tests.LoginTest">
+                  <a href="#" panel-name="ignored-methods-com.qa.tests.LoginTest" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-com.qa.tests.LoginTest">
+                  <a href="#" panel-name="chronological-com.qa.tests.LoginTest" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,8 +101,8 @@
                     </span>
                     <div class="method-list-content passed suite-com.qa.tests.LoginTest">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.qa.tests.LoginTest" title="com.qa.tests.LoginTest" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com.qa.tests.LoginTest" title="com.qa.tests.LoginTest" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com.qa.tests.LoginTest -->
@@ -140,8 +140,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite verbose=&quot;0&quot; name=&quot;com.qa.tests.LoginTest&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+&lt;suite name=&quot;com.qa.tests.LoginTest&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Command line test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa.tests.LoginTest&quot;/&gt;
     &lt;/classes&gt;
@@ -187,12 +187,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
 data.setCell(0, 2, 'com.qa.tests.LoginTest')
-data.setCell(0, 3, 34);
+data.setCell(0, 3, 15);
 window.suiteTableData['com.qa.tests.LoginTest']= { tableData: data, tableDiv: 'times-div-com.qa.tests.LoginTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 ms</span>
+              <span class="suite-total-time">Total running time: 15 ms</span>
               <div id="times-div-com.qa.tests.LoginTest">
               </div> <!-- times-div-com.qa.tests.LoginTest -->
             </div> <!-- times-div -->
